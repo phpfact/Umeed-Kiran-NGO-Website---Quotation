@@ -332,21 +332,59 @@
 
         .page {
           margin: 0;
+          box-shadow: none;
         }
 
         .header,
         .content {
-          padding-left: 22px;
-          padding-right: 22px;
+          padding-left: 20px;
+          padding-right: 20px;
         }
 
         .header {
+          padding-top: 24px;
+          padding-bottom: 22px;
+          flex-direction: column;
+          align-items: stretch;
+          gap: 20px;
+        }
+
+        .brand {
           flex-direction: column;
           align-items: flex-start;
+          gap: 14px;
+          width: 100%;
+        }
+
+        .logo {
+          width: 135px;
+          max-height: 95px;
+        }
+
+        .eyebrow {
+          font-size: 12px;
+          margin-bottom: 4px;
+        }
+
+        h1 {
+          font-size: 26px;
+          line-height: 1.22;
+        }
+
+        .subtitle {
+          font-size: 15px;
+          line-height: 1.45;
+          margin-top: 6px;
         }
 
         .quote-box {
           width: 100%;
+          min-width: 0;
+          padding: 16px 18px;
+        }
+
+        .price {
+          font-size: 28px;
         }
 
         .scope-grid,
@@ -354,9 +392,44 @@
         .signature {
           grid-template-columns: 1fr;
         }
+      }
+
+      @media (max-width: 480px) {
+        .header,
+        .content {
+          padding-left: 16px;
+          padding-right: 16px;
+        }
+
+        .header {
+          padding-top: 20px;
+          padding-bottom: 20px;
+          gap: 18px;
+        }
+
+        .brand {
+          gap: 12px;
+        }
+
+        .logo {
+          width: 120px;
+          max-height: 85px;
+        }
 
         h1 {
-          font-size: 29px;
+          font-size: 23px;
+        }
+
+        .subtitle {
+          font-size: 14px;
+        }
+
+        .quote-box {
+          padding: 14px 16px;
+        }
+
+        .price {
+          font-size: 26px;
         }
       }
 
@@ -409,11 +482,6 @@
             <h1>Umeed Kiran NGO Website</h1>
             <p class="subtitle">NGO Website + Integrated E-Commerce + Custom Level-Based Commission System</p>
           </div>
-        </div>
-        <div class="quote-box">
-          <div class="label">Final Project Cost</div>
-          <div class="price">₹1,50,000</div>
-          <div class="price-note">One-time development quotation</div>
         </div>
       </header>
 
@@ -807,6 +875,34 @@
               <div><strong>Email:</strong> amitkaushik7273@gmail.com</div>
             </div>
           </div>
+        </section>
+
+        <section class="section">
+          <h2 class="section-title"><span class="num">18</span>Revision Policy</h2>
+          <ul>
+            <li>The project includes a maximum of <strong>3 revision rounds</strong> within the approved project scope.</li>
+            <li>Revisions mean reasonable changes or modifications to the existing agreed design/content/functionality. <strong>New features, new pages, redesigns, or changes outside the approved scope will not be considered as revisions.</strong></li>
+            <li>After completion of the included 3 revision rounds, any additional revision will be <strong>chargeable separately</strong>.</li>
+            <li><strong>Unlimited revisions or unlimited changes are not included</strong> in any website package or project scope.</li>
+            <li>Any work or modification outside the approved project scope will be charged separately.</li>
+            <li>Any <strong>new feature, new page, redesign, API integration, third-party integration, functionality, or major modification</strong> not mentioned in the quotation will require separate costing and approval before development.</li>
+            <li>The project timeline will start after receipt of the required <strong>advance payment, content, information, credentials, approvals, and other required materials</strong> from the Client.</li>
+            <li>Any delay in providing required content, information, credentials, feedback, approvals, or other dependencies from the Client may result in a corresponding extension of the project delivery timeline.</li>
+            <li><strong>Hosting, domain, SSL, paid plugins, third-party services, APIs, software licenses, and other external services are not included unless specifically mentioned in the quotation. Such costs will be payable by the Client.</strong></li>
+          </ul>
+        </section>
+
+        <section class="section">
+          <h2 class="section-title"><span class="num">19</span>Payment, Suspension & Termination</h2>
+          <ul>
+            <li>The Client agrees to make payments according to the payment schedule mentioned in the quotation.</li>
+            <li>If any payment becomes overdue, the Developer may <strong>pause or suspend project work</strong> until the pending payment is received.</li>
+            <li>If the Client fails to make the required payment, repeatedly delays payment, or materially breaches the agreed terms, the Developer may suspend or terminate the project.</li>
+            <li>If the Client cancels the project after development work has started, <strong>the advance payment will be non-refundable</strong>. Any completed work or approved additional work may also become payable as per the agreed scope and payment terms.</li>
+            <li>If the project is terminated due to non-payment, material breach, or inappropriate/unprofessional conduct that materially affects project execution, the Developer may suspend or terminate the project after providing appropriate notice where reasonably practicable.</li>
+            <li>In case of termination due to Client-side non-payment or breach, <strong>any outstanding amount for work already completed or approved will remain payable by the Client</strong>.</li>
+            <li>Project files, source code, credentials, or other final deliverables will be handed over <strong>only after all applicable outstanding payments have been cleared</strong>, unless otherwise agreed in writing.</li>
+          </ul>
         </section>
 
         <section class="section">
